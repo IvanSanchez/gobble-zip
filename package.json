@@ -1,0 +1,11 @@
+{
+  "name": "gobble-zip",
+  "version": "0.0.0",
+  "description": "Zip files in your GobbleJS workflow",
+  "main": "gobble-zip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iván Sánchez Ortega <ivan@sanchezortega.es>",
+  "license": "Beerware"
+}
