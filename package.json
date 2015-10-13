@@ -1,6 +1,6 @@
 {
   "name": "gobble-zip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zip files in your GobbleJS workflow",
   "main": "gobble-zip.js",
   "scripts": {

@@ -3,15 +3,15 @@ var yazl = require('yazl');
 var sander = require('sander');
 var path = require('path');
 
-module.exports = function concat ( inputdir, outputdir, options ) {
+module.exports = function zip ( inputdir, outputdir, options ) {
 
 	if ( !options.dest ) {
-		throw new Error( 'You must pass a \'dest\' option to gobble-concat' );
+		throw new Error( 'You must pass a \'dest\' option to gobble-zip' );
 	}
 
 // 	console.log('Zipping dir: ', inputdir);
 
-	// Following lines for filtering files heavily inspired on gobble-concat:
+	// Following lines for filtering files heavily inspired on gobble-zip:
 	return sander.lsr( inputdir ).then( function ( allFiles ) {
 
 		var mapSeries = require( 'promise-map-series' ),
